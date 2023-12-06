@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .full{
     display: flex;
+    width:90%;
+    margin:auto;
+    font-family: 'Inter', sans-serif;
     
 }
 .left{
@@ -25,7 +29,7 @@
 {
     padding: 10px 10px;
    margin-top: 30px;
-    background-color: yellow;
+    background-color: orange;
     text-align: center;
 }
 .education
@@ -96,13 +100,17 @@
     /* background-color: aqua ; */
     align-items: center;
     margin-top: 20px;
+   
 
 }
 
 .contact-container p{
     margin: 0;
-    margin-left: 40px;
+    margin-left: 60px;
+    margin-top: 5px;
     padding: 0;
+    width: 200%;
+    
 }
 .box-container{
     display: flex;
@@ -116,8 +124,11 @@
 
 .contact-info p{
     margin: 0;
-    margin-left: 20px;
+    margin-left: 0px;
     padding: 0;
+    padding-left: 20px;
+    background-color: rgba(128, 128, 128, 0.482);
+    width: 1000%;
 }
 
 .skill-container{
@@ -150,4 +161,3 @@
     height: 100%;
     background-color: black;
 }
-#
